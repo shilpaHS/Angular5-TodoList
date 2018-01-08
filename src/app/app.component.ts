@@ -7,4 +7,9 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'app';
+  angularLogo="hey";
+  buttonStatus=false;
+  myEvent(event){
+    console.log("event :"+event)
+  }
 }
